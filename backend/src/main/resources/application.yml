@@ -1,0 +1,5 @@
+server:
+  servlet:
+    context-path: /backend
+service:
+  dns: https://internal-private-alb-spring-test-1009786974.us-east-1.elb.amazonaws.com/

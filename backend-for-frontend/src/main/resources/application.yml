@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: dev
+cloud:
+  aws:
+    stack:
+      auto: false
+server:
+  servlet:
+    context-path: /backend-for-frontend
+service:
+  dns: http://internal-private-alb-spring-test-1009786974.us-east-1.elb.amazonaws.com/
